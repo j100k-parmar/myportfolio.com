@@ -22,15 +22,19 @@ body{
     padding-top: 10px;
     
 }
+
 #menu ul li a{
     color: white;
     text-decoration: none;
+}
+#menu ul li a:hover{
+    color: tomato;
 }
 .about{
     margin: auto;
     padding-top: 40px;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-image:url(../img/bg.jpg);
     background-size: cover;
    }
@@ -80,18 +84,22 @@ body{
     color: white;
     
 }
+.btn a:hover{
+    background-color: white;
+    color: rgb(53, 194, 194) ;
+}
 .h1{
     text-align: center;
     width: 100%;
     padding-top: 20px;
-    color: rgb(53, 194, 194);
+    color: rgb(117, 102, 102);
 }
 .Education{
     width: 100%;
     height: 50vh;
     background-image: url(../img/bg2.jpg);
     background-size: cover;
-    margin-top: 40px;
+    margin-top: -22px;
 }
 .a{
     margin: auto;
@@ -103,14 +111,14 @@ body{
 .kkv{
     height: 50px;
     width: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 20px;
     padding-top: 18px;
     margin: auto;
 }
 .school{
     text-align: center;
-    padding-top: 65px;
+    padding-top: 120px;
     padding-left: 88px;
 }
 .fnt{
@@ -154,12 +162,12 @@ body{
     padding-top: 30px;
  }
  .project{
-     width: 100%;
-     height: 250px;
-     margin-top: 40px;
-     background-image: url(../img/project.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: -22px;
+    background-image: url(../img/project.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
  }
  .example{
      float: left;
@@ -167,12 +175,14 @@ body{
      height: 250px;
      border: 2px solid black;
      margin-left: 20px;
+     margin-top: 20px;
  }
  .example img{
      width: 350px;
      height:250px;
-    
+     overflow: hidden;
  }
+ 
 
 
  .center{
@@ -225,18 +235,14 @@ body{
  }
  .contact{
      width: 100%;
-     height: 500px;
-     margin-top: 40px;
- }
- .contact{
-    width: 100%;
-    height:600px;
-    /* background-color:gray; */
+     height: 600px;
+    background-image:url(https://elementalmachines.io/wp-content/uploads/2017/10/contact-section-background.png);
+    margin-top: -22px;
 }
 .mapouter{
     position:relative;
     text-align:right;
-    height:500px;
+    height:600px;
     width:50%;
     float: left;
 
@@ -244,29 +250,35 @@ body{
 #gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height:500px;
+    height:600px;
     width:100%;
 }   
 
  .map{
      width: 50%;
-     height:500px;
+     height:600px;
      float: left;
  }
  .form{
     width: 50%;
-    height: 500px;
+    height: 600px;
     background-color: skyblue;
     float: left;
     /* margin-left: 40px; */
 }
 .form input{
     width: 555px;
-    background-color: transparent;
+    background-color:white;
     border: 2px solid gray;
     margin-top: 40px;
     margin-left: 105px;
     padding-top: 20px;
+}
+.form textarea{
+    width: 555px;
+    margin-top: 40px;
+    margin-left: 105px;
+    border: 2px solid gray;
 }
 .btn_new{
     background-color:  rgb(53, 194, 194);
@@ -277,4 +289,31 @@ body{
     height:40px;
     width: 557px;
     border: none;
+}
+.connect{
+    margin-top: 40px;
+    margin-left: 177px;
+}
+.social{
+    float: left;
+    width: 40px;
+    height: 35px;
+    margin-left: 83px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.social i{
+    color:white;
+    font-size: 30px;
+    }
+.social i:hover{
+    color: white;
+    width: 65px;
+    height: 50px;
+    text-align: center;
+    padding-top: 16px;
+    background-color: rgb(53, 194, 194);
+    border-radius: 50%;
+    border: 2px solid white;
 }
